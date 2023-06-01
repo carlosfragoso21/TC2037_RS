@@ -3,6 +3,16 @@ this is the user manual for the ABAP Syntax Highlighter program! This program, d
 
 ![image](https://github.com/carlosfragoso21/TC2037_RS/assets/80837879/0de6d3fd-58c6-484f-97f6-d5aae35ae4be)
 
+## Diagram to facilitate perception of logical flow
+![Diagrama de flujo (3)](https://github.com/carlosfragoso21/TC2037_RS/assets/80837879/dd2383e0-b634-452f-a2ba-4cf0050371ac)
+
+## Recursive Function Calls
+
+This program utilizes recursive function calls based on the content of the test file. The number of recursive calls is variable and depends on the specific content of the file being processed. It is important to understand the following aspects:
+
+Best-case Scenario: In the best-case scenario, the program may not require any recursive calls. This occurs when the content of the string does conceed once time or none with regex validation.
+
+Worst-case Scenario: In the worst-case scenario, the program may make multiple recursive calls. The exact number of recursive calls cannot be determined in advance, as it depends on the specific content of the file being processed.
 
 ## User Manual
 There´s a few considerations before using the program:
