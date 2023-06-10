@@ -39,5 +39,5 @@ IF i_facts IS NOT INITIAL AND i_r4 IS NOT INITIAL  .
       ENDLOOP.
   ENDCASE.
 ELSE.
-  MESSAGE 'Sin información' TYPE 'E'.
+  MESSAGE 'Sin información'.
 ENDIF.
