@@ -63,26 +63,30 @@ z = any directory name.
 Here's how I introduce my path 
 ![image](https://github.com/carlosfragoso21/TC2037_RS/assets/80837879/80c58792-6efd-4e4d-96c6-f7d24065648d)
 ![image](https://github.com/carlosfragoso21/TC2037_RS/assets/80837879/7f1b381e-0c7d-4519-af7e-a306793ee19b)
-This is the result from file explorer C:\Users\Inetum\Desktop\Sintaxis I'll just add extra \ and end path with \\ to complete format:
-C:\\Users\\Inetum\\Desktop\\Sintaxis\\
+This is the result from file explorer C:\Users\Inetum\Desktop\Sintaxis 
 
-### Now we can go to steps
+We need to consider 2 steps:
+
+1.- Add your file name to your path, in this case, mine would be C:\Users\Inetum\Desktop\Sintaxis/CONTENT.TXT
+
+2.- I'll just add extra \ and end path with \\ to complete format:
+C:\\Users\\Inetum\\Desktop\\Sintaxis\\CONTENT.TXT
+
+### Now we can go to next steps
 
 1.- Download exs file
 
 2.- Download or get your test files
 
-3.- Program will read the file that is named CONTENT.TXT so name like this the file that you will run
+3.- Get your path ready where your file test is and the html, css generated will be generated
 
-4.- Get your path ready where your file test is and the html, css generated will be generated
+4.- Open exs
 
-5.- Open exs
+5.- Call Function (H.Syntax is module and main_syntax is function) So H.Syntax.main_syntax("") between "" you'll write your path
+So in my case: H.Syntax.main_syntax("C:\\Users\\Inetum\\Desktop\\Sintaxis\\CONTENT.TXT")
 
-6.- Call Function (R.Syntax is module and main_syntax is function) So R.Syntax.main_syntax("") between "" you'll write your path
-So in my case: R.Syntax.main_syntax("C:\\Users\\Inetum\\Desktop\\Sintaxis\\")
+6.- enter
 
-7.- enter
-
-8.- Check the HTML File generated in your directory
+7.- Check the HTML File generated in your directory
 
 ![image](https://github.com/carlosfragoso21/TC2037_RS/assets/80837879/e8667008-6057-4b60-af28-1f1c4e25995d)
