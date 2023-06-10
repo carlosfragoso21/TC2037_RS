@@ -39,6 +39,16 @@ The complexity of the program in Big O terms it's O(n). Considering step process
 
 In order to visualize this behavior, let's compare process time between a small file (10 words) and a medium file (100 words):
 
+First file test:
+![image](https://github.com/carlosfragoso21/TC2037_RS/assets/80837879/69d9f061-6696-483d-beee-414e383e0c91)
+As we can see, the average is 38333 nanoseconds
+
+Second file test (10x words):
+![image](https://github.com/carlosfragoso21/TC2037_RS/assets/80837879/e21f680a-19e5-486f-955d-236ce1d45bd7)
+As we can see, the averagge 248333 nanoseconds
+
+We can infer that time does not increment 10 times, this could be because we have to know that iniciation process and final process(the ones that are not in loop or recursively calling) these are not reprocessing 10 times. So in this test we can see that the complexity is not worse than O(n). And just to assert, program will increase steps depending on words quantity, this increase is proportional to content.
+
 ## User Manual
 There´s a few considerations before using the program:
 * This program will generate 2 files (1 html, 1 css) and will read your test file. Program also just ask for the path, you must be organizated in the path that you wanna work with.
