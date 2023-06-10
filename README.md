@@ -6,6 +6,27 @@ this is the user manual for the ABAP Syntax Highlighter program! This program, d
 ## Diagram to facilitate perception of logical flow
 ![Diagrama de flujo (3)](https://github.com/carlosfragoso21/TC2037_RS/assets/80837879/dd2383e0-b634-452f-a2ba-4cf0050371ac)
 
+## Token types
+* Reserved keywords: AUTHORITY-CHECK, FIELD-SYMBOL, ASSIGNING, IMPORTING, PERFORM, PARAMETERS, ENDMETHOD, ENDMODULE, STRUCTURE, CONDENSE, CONSTANTS, UNASSIGN, ENDSELECT, ENDLOOP, ENDFORM, CONTINUE, CONVERT, DESCRIBE, COLLECT, COMMIT, COMPUTE, SELECTION, FUNCTION, ROLLBACK, REFRESH, REJECT, REPORT, RETURN, METHOD, MODIFY, MODULE, MOVE, MULTIPLY, EXPORT, EXTRACT, APPEND, OBJECT, CATCH, CHECK, CLASS, CLEAR, CLOSE, OPTION, ENDTRY, UNION, UPDATE, VALUE, VALUES, VARYING, WHEN, WHILE, WITH, WRITE, WHERE, REPORT, INCLUDE, GROUP, HAVING, IMPORT, INCLUDE, INITIAL, INNER, INTO, LEAVE, SELECT, SWITCH, DEFINE, DELETE, FROM, SUBMIT, ASSIGN, START, FORM, BREAK, CASE, NODES, ORDER, RAISE, READ, ELSEIF, TYPE, TYPES, TABLE, AND, CALL, DATA, ELSE, ENDIF, END, EXIT, FETCH, FILTER, FINAL, FOR, LIKE, LOOP, NEW, NEXT, NOT, SET, SHIFT, SPLIT, STEP, SUM, TRY, DO, AT, IF, NO, OF, ON, OR.
+
+* Identifiers: Following the pattern of starting with a letter (uppercase or lowercase) and being composed of letters, numbers, and underscores.
+
+* String literals: Enclosed within single quotes ('') and can contain any content between them.
+
+* Operators: +, -, *, /, =.
+
+* Delimiters: Parentheses () and brackets [].
+
+* Comments: Starting with double quotes (") and can span multiple lines.
+
+* Numbers: Can be integers or decimals.
+
+* Dot, comma, and at symbol: ., ,, @.
+
+* Line break: Represented by a line break pattern.
+
+* Error token: Used to identify syntax highlighting errors.
+
 ## Recursive Function Calls
 
 This program utilizes recursive function calls based on the content of the test file. The number of recursive calls is variable and depends on the specific content of the file being processed. It is important to understand the following aspects:
@@ -13,6 +34,10 @@ This program utilizes recursive function calls based on the content of the test 
 Best-case Scenario: In the best-case scenario, the program may not require any recursive calls. This occurs when the content of the string does conceed once time or none with regex validation.
 
 Worst-case Scenario: In the worst-case scenario, the program may make multiple recursive calls. The exact number of recursive calls cannot be determined in advance, as it depends on the specific content of the file being processed.
+## Big O complex
+The complexity of the program in Big O terms it's O(n). Considering step process depending on content, we can infer the O(n) because steps will increase proportionally to content.
+
+In order to visualize this behavior, let's compare process time between a small file (10 words) and a medium file (100 words):
 
 ## User Manual
 There´s a few considerations before using the program:
