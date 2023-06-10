@@ -89,4 +89,7 @@ So in my case: H.Syntax.main_syntax("C:\\Users\\Inetum\\Desktop\\Sintaxis\\CONTE
 
 7.- Check the HTML File generated in your directory
 
-![image](https://github.com/carlosfragoso21/TC2037_RS/assets/80837879/e8667008-6057-4b60-af28-1f1c4e25995d)
+![image](https://github.com/carlosfragoso21/TC2037_RS/assets/80837879/92a9405c-bf7f-4f04-8e89-7d77d26461b8)
+
+![image](https://github.com/carlosfragoso21/TC2037_RS/assets/80837879/5e1feef1-7a55-4d37-853f-cfbb640cfdaf)
+
